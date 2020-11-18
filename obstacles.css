@@ -1,0 +1,53 @@
+#obstacle1{
+    background-image: url(./images/obstacle1.png);
+    animation-name: obstacle1-left;
+    animation-delay: 5s;
+}
+
+
+@keyframes obstacle1-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    10% {
+        opacity: 1;
+        transform: translateX(-100px);
+    }
+    20% {
+        opacity: 1;
+        transform: translateX(-150px);
+    }
+    30% {
+        opacity: 1;
+        transform: translateX(-200px);
+    }
+    40% {
+        opacity: 1;
+        transform: translateX(-250px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(-300px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateX(-350px);
+    }
+    70% {
+        opacity: 1;
+        transform: translateX(-400px);
+    }
+    80% {
+        opacity: 1;
+        transform: translateX(-450px);
+    }
+    90% {
+        opacity: 1;
+        transform: translateX(-500px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(-550px);
+    }
+  }

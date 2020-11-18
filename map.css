@@ -1,0 +1,32 @@
+#background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1376px;
+    height: 768px;
+}
+
+#hearts{
+    position: absolute;
+
+}
+
+#sky{
+    position: relative;
+    padding-top: 1%;
+    width: 500px;
+    height: 180px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#road{
+    background-image: url(./images/Road.png);
+    position: relative;
+    width: 500px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}

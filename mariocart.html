@@ -4,19 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./mariocart.css">
+    <link rel="stylesheet" href="./map.css">
+    <link rel="stylesheet" href="./obstacles.css">
+    <link rel="stylesheet" href="./mariochar.css">
 </head>
 <body>
-    <div>
+    <div id="background">
         <div>
-            <img id="sky" src="./images/sky.png" alt="">
+            <img src="./images/gamebackground.png" alt="Mario Cart Xtreme Logo Background">
         </div>
         <div>
-            <div class="road"></div>
-            <div class="road"></div>
-            <div class="road"></div>
-            <div class="road"></div>
-            <div class="road"></div>
+            <div> 
+                <div>
+                    <img id="sky" src="./images/sky.png" alt="Blue Sky">
+                </div>
+                <div id="hearts">
+                    <img id="life1" src="./images/heart.png" alt="life heart left">
+                    <img id="life2" src="./images/heart.png" alt="life heart middle">
+                    <img id="life3" src="./images/heart.png" alt="life heart right">
+                </div>
+            </div>
+
+            <div>
+                <div id="road">
+                    <img src="./images/Road.png" alt="race course">
+                    <div id="marioContainer">
+                        <img id="marioChar" src="./images/mario.png" alt="Mario Cart Xtreme Character">
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
