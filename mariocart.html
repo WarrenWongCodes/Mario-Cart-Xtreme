@@ -3,38 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mario Cart Xtreme V1.0</title>
     <link rel="stylesheet" href="./map.css">
     <link rel="stylesheet" href="./obstacles.css">
     <link rel="stylesheet" href="./mariochar.css">
 </head>
-<body>
-    <div id="background">
-        <div>
-            <img src="./images/gamebackground.png" alt="Mario Cart Xtreme Logo Background">
+<body onload="gameStart()">
+    <div>
+        <div id="background">
+            <img  src="./images/gamebackground.png" alt="Mario Cart Xtreme Logo Background">
         </div>
-        <div>
-            <div> 
-                <div>
-                    <img id="sky" src="./images/sky.png" alt="Blue Sky">
-                </div>
-                <div id="hearts">
-                    <img id="life1" src="./images/heart.png" alt="life heart left">
-                    <img id="life2" src="./images/heart.png" alt="life heart middle">
-                    <img id="life3" src="./images/heart.png" alt="life heart right">
-                </div>
-            </div>
 
-            <div>
-                <div id="road">
+        <div id="sky"> 
+            <div id="skySlider">
+                <img class="skyImage" src="./images/sky1.png" alt="Blue Sky">
+                <img class="skyImage" src="./images/sky2.png" alt="Blue Sky">
+                <img class="skyImage" src="./images/sky3.png" alt="Blue Sky">
+                <img class="skyImage" src="./images/sky4.png" alt="Blue Sky">
+                <img class="skyImage" src="./images/sky5.png" alt="Blue Sky">
+                <img class="skyImage" src="./images/sky6.png" alt="Blue Sky">
+                <img class="skyImage" src="./images/sky7.png" alt="Blue Sky">
+                <img class="skyImage" src="./images/sky8.png" alt="Blue Sky">
+            </div>
+        </div>    
+
+        <div id="hearts">
+            <img id="life1" src="./images/heart.png" alt="life heart left">
+            <img id="life2" src="./images/heart.png" alt="life heart middle">
+            <img id="life3" src="./images/heart.png" alt="life heart right">
+        </div>
+
+        <div>
+            <div id="road">
+                <div id="roadSlider">
                     <img src="./images/Road.png" alt="race course">
-                    <div id="marioContainer">
-                        <img id="marioChar" src="./images/mario.png" alt="Mario Cart Xtreme Character">
-                    </div>
                 </div>
+                    
+                <div id="marioChar">
+                    <img src="./images/mario.png" alt="Mario Cart Xtreme Character">
+                 </div>
             </div>
-
         </div>
+
     </div>
 
     <script src="./mariocart.js"></script>

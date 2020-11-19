@@ -11,14 +11,56 @@
 
 }
 
+.skyImage {
+    width: 500px;
+    height: 180px;
+}
+
+@keyframes skyCarousel{
+    0%{transform: translateX(0);}        
+    12.5%{transform: translateX(-500px);}
+    25%{transform: translateX(-1000px);}
+    37.5%{transform: translateX(-1500px);}
+    50%{transform: translateX(-2000px);}
+    62.5%{transform: translateX(-2500px);}        
+    75%{transform: translateX(-3000px);}
+    87.5%{transform: translateX(-3500px);}
+    100%{transform: translateX(-4000px);}
+}
+
+#skySlider{
+    display: flex;
+    animation: skyCarousel 18s linear 10 ;
+}
+
 #sky{
     position: relative;
     padding-top: 1%;
-    width: 500px;
-    height: 180px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    width: 500px;
+    height: 180px;
+    overflow: hidden;
+}
+
+@keyframes roadCarousel{
+    0%{transform: translateX(0);}        
+    10%{transform: translateX(50px);}
+    20%{transform: translateX(100px);}
+    30%{transform: translateX(150px);}
+    40%{transform: translateX(200px);}
+    50%{transform: translateX(250);}        
+    60%{transform: translateX(300px);}
+    70%{transform: translateX(350px);}
+    80%{transform: translateX(400px);}
+    90%{transform: translateX(450px);}
+    100%{transform: translateX(500px);}
+}
+
+#roadSlider{
+    display: flex;
+    animation: roadCarousel 2s linear 90;
 }
 
 #road{
@@ -29,4 +71,5 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    overflow: hidden;
 }
