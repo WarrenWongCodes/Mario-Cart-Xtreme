@@ -11,6 +11,12 @@
 
 }
 
+#timer{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
 .skyImage {
     width: 500px;
     height: 180px;
@@ -35,7 +41,7 @@
 
 #sky{
     position: relative;
-    padding-top: 1%;
+    padding-top: 5%;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -72,4 +78,12 @@
     margin-right: auto;
     display: flex;
     overflow: hidden;
+}
+
+#marioChar{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 0;
 }
