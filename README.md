@@ -2,6 +2,8 @@
 
 ## Warren's Mario Cart Xtreme Spin-Off App MVP Iteration #1
 
+![mariocart](https://user-images.githubusercontent.com/8570718/126553363-c4483599-2283-4341-aabc-db5e83142cd7.jpeg)
+
 ## Framing Session
 - Who: 20 year old named Alex
 - What: Fun game where Mario races around the world dodging dangerous road debris.
