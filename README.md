@@ -1,6 +1,4 @@
-#  Oct 2020 Cohort Final Project
-
-## Warren's Mario Cart Xtreme Spin-Off App MVP Iteration #1
+#  Mario Cart Xtreme Spin-Off App MVP
 
 ![mariocart](https://user-images.githubusercontent.com/8570718/126553363-c4483599-2283-4341-aabc-db5e83142cd7.jpeg)
 
